@@ -24,6 +24,7 @@
 
 </head>
 <body>
+    <!--Header-->
     <div>
         <header id="main-header"><h1>My Blog One</h1></header>
         <nav>
@@ -34,9 +35,10 @@
             </ul>
         </nav>
     </div>
+    <!--Images-->
     <div>
         <img src="https://im-media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-11/000_1M23UQ.jpg?itok=dkfTOlwI" width="200px">
-        <img src="https://unsplash.com/photos/Dzd_O5cnr0Y">
+        <img src="https://images.unsplash.com/photo-1486078695445-0497c2f58cfe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80">
     </div>
     <div>
         <h2>My blog About whether</h2>
@@ -57,12 +59,60 @@
         <h2>caution and warning</h2>
         <p>In the event of bad whether condition try not to go out and drive safely. please follow a guidance from civil protection agency...<a href="http://www.protezionecivile.gov.it/en_GB" target="_blank">see more</a></p>
     </div>
-    <div id="main-footer">
+    
+    <!--form-->
+    <form action="process.php" method="POST">
+    	<div>
+    	    <label>First Name</label>
+    	    <input type="text" name="firstName" placeholder="firstName">
+        </div>
+
+        <br>
+
+        <div>
+    	    <label>Last Name</label>
+    	    <input type="text" name="lastName" placeholder="lastName">
+    	</div> 
+    	<br>
+    	 <div>
+    	    <label>Email</label>
+    	    <input type="Email" name="Email">
+    	</div>
+    	 <div>
+    	    <label>message</label>
+    	    <textarea name="message"></textarea>
+    	</div>  
+    	<br> 
+    	 <div>
+    	    <label>Gender</label>
+    	    <select name="Gender">
+    	         <option value="Male"></option>
+    	         <option value="Female"></option>
+    	         <option value="other"></option>
+    	    </select>
+    	</div> 
+    	<br>
+    	    <div>
+    	    	<label>Age</label>
+    	    	<input type="Number" name="age" value="30">
+    	    </div>
+    	    <div>
+    	    	<label>Birthday</label>
+    	    	<input type="date" name="Birthday">
+    	    </div>
+    	    <br>
+    	    <input type="submit" name="submit" value="submit">
+    </form>
+
+     <!-- Button -->
+     <button>click Me</button>
+     <br>
+     <div id="main-footer">
         <footer>
             <ul>
-                <li><a href="https:/www.facebook.com">Facebook</a></li>
-                <li></li><a href="https:/www.instagram.com">Instagram</a></li>
-                <li></li><a href="https:/www.twitter.com">Twitter</a></li>
+                <li>Facebook<a href="https:/www.facebook.com">Facebook</a></li>
+                <li>Instagram</li><a href="https:/www.instagram.com">Instagram</a></li>
+                <li>Twitter</li><a href="https:/www.twitter.com">Twitter</a></li>
             </ul>
     
         </footer>
