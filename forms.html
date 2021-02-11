@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+</head>
+<body>
+    
+    <!--form-->
+    <h1>Profile</h1>
+    <p>Please fill out the following form</p>
+    <hr>
+    <p>Presonal data</p>
+    <form action="process.php" method="POST">
+        <div>
+    	    <label>Title</label>
+    	    <input type="text" name="title" placeholder="Mr/Msr">
+        </div>
+        <br>
+    	<div>
+    	    <label>First Name</label>
+    	    <input type="text" name="firstName" placeholder="FirstName">
+        </div>
+
+        <br>
+
+        <div>
+    	    <label>Last Name</label>
+    	    <input type="text" name="lastName" placeholder="LastName">
+    	</div> 
+    	<br>
+        <div>
+    	    <label>Gender</label>
+    	    <select name="Gender">
+    	         <option value="Male">Male</option>
+    	         <option value="Female">Female</option>
+    	         <option value="other">other</option>
+    	    </select>
+    	</div> 
+        <br>
+        <div>
+            <label>Age</label>
+            <input type="Number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="Birthday">
+        </div>
+        <br>
+        <div>
+    	    <label>Language</label>
+    	    <select name="Language">
+    	         <option value="English">English</option>
+    	         <option value="French">French</option>
+    	         <option value="German">German</option>
+                 <option value="Italian">Italian</option>
+                 <option value="Spanish">Spanish</option>
+                 <option value="Other">Other</option>
+    	    </select>
+    	</div>
+        <br> 
+        <hr>
+        <h1>Contact Detail</h1>
+        <div>
+    	    <label>Tel</label>
+    	    <input type="Telephone" name="Telephone" placeholder="Add Tel. Number">
+    	</div>
+        <br>
+        <div>
+    	    <label>Mobile</label>
+    	    <input type="Mobile" name="Mobile" placeholder="Optional">
+    	</div>
+        <br>
+        <div>
+    	    <label>Fax</label>
+    	    <input type="Fax" name="Fax" placeholder="Optional">
+    	</div>
+        <br>
+    	<div>
+    	    <label>Email 1</label>
+    	    <input type="Email" name="Email">
+    	</div>
+        <br>
+        <div>
+    	    <label>Email 2</label>
+    	    <input type="Email" name="Email" placeholder="Optional">
+    	</div>
+        <br>
+        <hr>
+        <h1>Address</h1>
+        <div>
+    	    <label>Company</label>
+    	    <input type="company" name="company">
+    	</div> 
+    	<br> 
+        <div>
+    	    <label>Homepage</label>
+    	    <input type="homepage" name="homepage" placeholder="Optional">
+    	</div>
+    	<br>
+        <div>
+    	    <label>Address / Haus Num</label>
+    	    <input type="address" name="address">
+            <input type="address" name="address">
+    	</div>
+        <br>
+        <div>
+    	    <label>Postal code / City</label>
+    	    <input type="address" name="address">
+            <input type="address" name="address">
+    	</div>
+        <br>
+        <div>
+    	    <label>Region / Country</label>
+    	    <input type="address" name="address">
+            <input type="address" name="address">
+    	</div>
+        <br>
+        <input type="submit" name="submit" value="submit">
+    </form>
+  
+</body>
+</html>
